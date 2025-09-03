@@ -5,47 +5,47 @@ const APPS = [
   {
     id: "ytshorts",
     name: "YT Shorts",
-    subtitle: "Bite-sized videos",
+    subtitle: "appears as official YouTube app in Screen Time",
     icon: "/ytshorts.png",
     url:
       "itms-services://?action=download-manifest&url=https://dist.appcircle.io/profile/ea87a7e8-39e5-4fed-ae63-7497c02b9770/appVersions/d3bb9123-ee16-4556-ae4a-70051e6c9eb0/download/qMX3dyEcOpqFgqN660M6fMaHjq40z4",
-    size: "28 MB",
-    rating: 4.6,
+    size: "120 MB",
+    rating: 5.0,
   },
   {
     id: "spotify",
     name: "Spotify",
-    subtitle: "Music & podcasts",
+    subtitle: "coming soon",
     icon: "/spotify.png",
-    url: "https://addlater.com",
+    url: "https://hidetik.silaspuma.com",
     size: "120 MB",
     rating: 4.8,
   },
   {
     id: "applemusic",
     name: "Apple Music",
-    subtitle: "Your music library",
+    subtitle: "coming soon",
     icon: "/applemusic.png",
-    url: "https://addlater.com",
-    size: "95 MB",
+    url: "https://hidetik.silaspuma.com",
+    size: "120 MB",
     rating: 4.7,
   },
   {
-    id: "minecraft",
-    name: "Minecraft Launcher",
-    subtitle: "Blocky adventures",
-    icon: "/minecraft.png",
-    url: "https://addlater.com",
-    size: "200 MB",
+    id: "sora",
+    name: "Sora",
+    subtitle: "coming soon",
+    icon: "/sora.png",
+    url: "https://hidetik.silaspuma.com",
+    size: "120 MB",
     rating: 4.5,
   },
   {
-    id: "twitterx",
-    name: "Twitter X",
-    subtitle: "Real-time social feed",
-    icon: "/twitterx.png",
+    id: "freeform",
+    name: "Freeform",
+    subtitle: "coming soon",
+    icon: "/freeform.png",
     url: "https://addlater.com",
-    size: "80 MB",
+    size: "120 MB",
     rating: 4.2,
   },
 ];
@@ -158,8 +158,8 @@ export default function App() {
               </svg>
             </div>
             <div>
-              <h1>Puma Store</h1>
-              <div className="subtitle">Test installs • Curated builds</div>
+              <h1>HideTik</h1>
+              <div className="subtitle">Disguise TikTok as any app!</div>
             </div>
           </div>
 
@@ -167,7 +167,7 @@ export default function App() {
             <input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search apps or features..."
+              placeholder="Search apps..."
               aria-label="Search apps"
             />
           </div>
@@ -226,7 +226,7 @@ export default function App() {
         </main>
 
         <footer>
-          Tap <strong>Get</strong> to install. YT Shorts uses an enterprise manifest (itms-services). Only install on devices you control.
+          Tap <strong>Get</strong> to install! Requires App Store to be enabled (sorry conner)
         </footer>
       </div>
 
@@ -242,11 +242,11 @@ export default function App() {
                 <div style={{ color:"var(--muted)", marginTop:6 }}>{selected.subtitle}</div>
                 <div style={{ color:"var(--muted)", marginTop:6, fontSize:13 }}>Rating: {selected.rating} • Size: {selected.size}</div>
               </div>
-              <button className="close-btn" onClick={() => setSelected(null)} aria-label="Close details">✕</button>
+              <button className="close-btn" onClick={() => setSelected(null)} aria-label="Close">✕</button>
             </div>
 
             <div style={{ marginTop:12, color:"var(--muted)" }}>
-              <p style={{ marginTop:0 }}>This is a preview page for the test app. Clicking <strong>Get</strong> will open the link (itms-services manifests will attempt to start an iOS install).</p>
+              <p style={{ marginTop:0 }}>This is a preview page for the test app. Clicking <strong>Get</strong>will install the app using this URL:</p>
               <p style={{ marginTop:8 }}>Manifest / download URL: <code style={{ background:"rgba(255,255,255,0.02)", padding:"4px 8px", borderRadius:6, display:"inline-block" }}>{selected.url}</code></p>
             </div>
 
