@@ -1,3 +1,3 @@
 ## HideTik
 
-disguise tiktok as a different app, even in screen time! :D
+disguise tiktok as a any app, even in screen time! :D
