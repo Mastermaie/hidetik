@@ -215,7 +215,7 @@ export default function App() {
         </main>
 
         <footer>
-          Tap <strong>Get</strong> to install! Requires App Store to be enabled
+          Tap <strong>Get</strong> to install! Requires App Store to be enabled (sorry conner)
         </footer>
       </div>
 
